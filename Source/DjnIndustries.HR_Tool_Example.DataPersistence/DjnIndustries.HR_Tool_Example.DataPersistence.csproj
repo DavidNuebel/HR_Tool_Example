@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DjnIndustries.HR_Tools_Example.IO\DjnIndustries.HR_Tools_Example.IO.csproj" />
+    <ProjectReference Include="..\DjnIndustries.HR_Tool_Example.Logging\DjnIndustries.HR_Tool_Example.Logging.csproj" />
+  </ItemGroup>
+
+</Project>

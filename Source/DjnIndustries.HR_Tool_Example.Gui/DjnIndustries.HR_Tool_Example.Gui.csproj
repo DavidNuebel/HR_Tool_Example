@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DjnIndustries.HR_Tool_Example.DataPersistence\DjnIndustries.HR_Tool_Example.DataPersistence.csproj" />
+    <ProjectReference Include="..\DjnIndustries.HR_Tool_Example.Model\DjnIndustries.HR_Tool_Example.Model.csproj" />
+  </ItemGroup>
+
+</Project>
